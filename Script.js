@@ -13,7 +13,7 @@ function verificar() {
         img.setAttribute('id', 'foto')
         if (fsex[0].checked) {
             genero = 'homem'
-            if (idade >=0 && idade < 18) {
+            if (idade >=0 && idade < 13) {
                 //criança
                 img.setAttribute('src', 'menino.png')
             } else if (idade < 21) {
