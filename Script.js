@@ -28,7 +28,7 @@ function verificar() {
             }
         } else if (fsex[1].checked) {
             genero = 'mulher'
-            if (idade >=0 && idade < 10) {
+            if (idade >=0 && idade < 13) {
                 //criança
                 img.setAttribute('src', 'menina.png')
             } else if (idade < 21) {
